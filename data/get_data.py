@@ -1,3 +1,7 @@
+"""
+You can download the historical data for the EGX 30 index from the investpy library and save it as a CSV file. The code below demonstrates how to do this
+or you can download the csv file from data/data/EGX 30 Historical Data.csv
+"""
 import investpy
 
 data = investpy.indices.get_index_historical_data(
